@@ -19,7 +19,7 @@ pipeline {
     text(
         name: 'post_body',
         description: 'Use GitHub MD format',
-        defaultValue: 'This week on NodeJs club Last week we'
+        defaultValue: 'Next time on NodeJs club we will'
     )
     booleanParam(
         name: 'post_footer',
