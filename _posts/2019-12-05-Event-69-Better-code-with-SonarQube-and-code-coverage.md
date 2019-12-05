@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event#69 Better code with SonarQube with code coverage"
+title:  "Event#69 Better code with SonarQube and code coverage"
 image: /images/default.jpg
 tags: [SonarQube]
 date: 2019-12-05 15:35:00 +0200
