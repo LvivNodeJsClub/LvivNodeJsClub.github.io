@@ -105,7 +105,8 @@ pipeline {
           env.MESSAGE = "${params.post_body.replaceAll("'ll", " will")}" +
               ({params.details_url} ? "${params.details_url}" : "") +
               "\\n" +
-              ({params.post_footer} ? "Join us next Tuesday, at 10:30 in ${params.room}" : "")
+              //({params.post_footer} ? "Join us next Tuesday, at 10:30 in ${params.room}" : "") +
+              ""
 
           env.POST = "---\n" +
               "layout: post\n" +
